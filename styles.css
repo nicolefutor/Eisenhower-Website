@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Roboto';
+}
+
+header {
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header img {
+	height: auto;
+	width: 100%;
+}
+
+#header-caption {
+  position: absolute;
+  background-color: black;
+  display: inline-block;
+  top: 80px;
+  left: 310px;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+#main {
+	display: flex;
+}
+
+#column-one{
+	flex: 20%;
+	margin: 5px;
+}
+
+#column-two {
+	flex: 79.85%;
+	margin: 8px;
+}
+
+#vertical-line {
+	flex: 0.15%;
+	background-color: #333;
+	margin: 10px;
+	width: 0.5px;
+}
+nav {
+	padding: 0px;
+	border: #153a04 solid 2px;
+	display: inline-block;
+	margin: 10px;
+	height: 260px;
+	width: 300px;
+	font-size: 22px;
+}
+
+nav a {
+	text-decoration-color: black;
+	color: black;
+}
+
+nav li {
+	list-style-type: none;
+	padding: 6px;
+	padding-top: 10px;
+	padding-left: 2px;
+}
+
+nav a:hover {
+	text-decoration-color: darkGrey;
+	color: darkGrey;
+}
+
+.tab {
+	text-indent: 10px;
+}
+
+img {
+	margin: 5px;
+}
+
+#one img{
+	height: 150px;
+	width: 250px;
+}
+
+#two img {
+	height: 150px;
+	width: 250px;
+}
+
+#three img {
+	height: 250px;
+	width: 200px;
+	filter: grayscale(100%);
+}
+
+#one, #two, #three {
+	margin-left: 10px;
+	margin: 5px;
+}
+
+footer {
+	height: 40px;
+	display: block:;
+	background-color: black;
+	color: white;
+	padding-left: 5px;
+  padding-top: 5px;
+}
+
+p {
+	font-size: 15px;
+}
+
+#column-two p {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h1, h2 {
+	font-family: 'Montserrat';
+}
+h3 {
+	text-decoration: underline;
+
+}
