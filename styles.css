@@ -18,6 +18,7 @@ header {
 header img {
 	height: auto;
 	width: 100%;
+	margin: 0;
 }
 
 #header-caption {
